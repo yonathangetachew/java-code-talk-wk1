@@ -1,0 +1,13 @@
+The code defines a Java class named ArraySorting, which contains the main method. The main method is the entry point of the program and is where the array sorting takes place.
+
+In the main method, an integer array numbers is declared and initialized with five values: 5, 2, 8, 1, and 9.
+
+The Arrays.sort() method is used to sort the numbers array in ascending order. The Arrays.sort() method is part of the Java standard library and is designed to sort arrays in their natural order. 
+After this method is called, the numbers array will be rearranged, and its elements will be in sorted order.
+
+The program then prints the sorted array using a for-each loop. The loop iterates over each element number in the numbers array, and in each iteration, it prints the element followed by a space.
+
+The output of the program will be:
+Sorted Array: 1 2 5 8 9
+
+The Arrays.sort() method sorts the elements of the array in ascending order, making it convenient to quickly sort arrays in Java. It is a powerful tool for dealing with data in various applications where sorting is required.

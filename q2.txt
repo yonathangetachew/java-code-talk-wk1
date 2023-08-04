@@ -1,0 +1,15 @@
+The code defines a Java class named PrimeNumber, which contains two methods: isPrime and main. The isPrime method takes an integer number as input and checks whether the given number is a prime number or not. 
+A prime number is a positive integer greater than 1 that has no divisors other than 1 and itself.
+
+In the isPrime method, the first condition checks if number is less than or equal to 1. If it is, the method immediately returns false as numbers less than or equal to 1 are not prime by definition.
+
+Next, there is a for loop that iterates from 2 to number - 1. For each i in the loop, it checks if number is divisible by i (i.e., number % i == 0). If it is divisible, the method returns false, indicating that the number is not prime. 
+If the loop completes without finding any divisors, the method returns true, indicating that the number is prime.
+
+In the main method, an integer variable number is declared and initialized to 17. Then, the isPrime method is called with number as an argument. If the returned value is true, it means 17 is prime, and the program prints "17 is a prime number." 
+Otherwise, it prints "17 is not a prime number."
+
+For the number 17, the isPrime method checks for divisors from 2 to 16. Since no divisor is found, the method returns true, and the output of the program will be:
+17 is a prime number.
+
+The isPrime method can be used to check whether any positive integer greater than 1 is prime or not, making it useful for prime number-related computations in Java programs.

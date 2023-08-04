@@ -1,0 +1,16 @@
+The given code defines a Java class named Factorial, which contains two methods: factorial and main. 
+The factorial method takes an integer n as input and calculates the factorial of the number. 
+Factorial of a non-negative integer n is the product of all positive integers less than or equal to n. 
+
+The method initializes a variable result to 1 and then uses a for loop to iterate from 1 to n. 
+During each iteration, the value of i is multiplied with the current value of result, updating result accordingly. Once the loop completes, the method returns the calculated result.
+
+The main method serves as the entry point for the program. Within main, an integer variable number is declared and assigned the value 5. 
+The factorial method is called with number as an argument, and the returned result is stored in the variable result. 
+
+Finally, the program prints the output using System.out.println, displaying the factorial of the input number.
+
+When executed with number = 5, the factorial method calculates the factorial as 5 * 4 * 3 * 2 * 1, which equals 120. Hence, the output of the program will be:
+Factorial of 5 is: 120
+
+The factorial method can be used to find the factorial of any non-negative integer passed as an argument to the method, making it a versatile utility for factorial calculations in Java programs.
